@@ -2,7 +2,7 @@
 
 version: 2
 updates:
-  - package-ecosystem: "composer"
+  - package-ecosystem: "package.json"
     # Files stored in repository root
     directory: "/"
     schedule:
