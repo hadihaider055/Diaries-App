@@ -55,6 +55,6 @@
     "@types/react-redux": "^7.1.18",
     "@types/react-router-dom": "^5.1.8",
     "@types/yup": "^0.29.13",
-    "miragejs": "^0.1.41"
+    "miragejs": "^0.1.45"
   }
 }
