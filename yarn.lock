@@ -1567,7 +1567,7 @@
   version "4.7.9"
   resolved "https://registry.npmjs.org/@types/history/-/history-4.7.9.tgz"
 
-"@types/hoist-non-react-statics@^3.3.0":
+"@types/hoist-non-react-statics@^3.3.0", "@types/hoist-non-react-statics@^3.3.1":
   version "3.3.1"
   resolved "https://registry.npmjs.org/@types/hoist-non-react-statics/-/hoist-non-react-statics-3.3.1.tgz"
   dependencies:
@@ -1623,13 +1623,9 @@
   version "3.0.3"
   resolved "https://registry.npmjs.org/@types/minimatch/-/minimatch-3.0.3.tgz"
 
-"@types/node@*":
-  version "14.14.31"
-  resolved "https://registry.npmjs.org/@types/node/-/node-14.14.31.tgz"
-
-"@types/node@^12.0.0":
-  version "12.20.20"
-  resolved "https://registry.npmjs.org/@types/node/-/node-12.20.20.tgz"
+"@types/node@*", "@types/node@^18.7.13":
+  version "18.7.13"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-18.7.13.tgz#23e6c5168333480d454243378b69e861ab5c011a"
 
 "@types/normalize-package-data@^2.4.0":
   version "2.4.0"
@@ -1657,7 +1653,7 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-redux@^7.1.16", "@types/react-redux@^7.1.18":
+"@types/react-redux@^7.1.18":
   version "7.1.18"
   resolved "https://registry.npmjs.org/@types/react-redux/-/react-redux-7.1.18.tgz"
   dependencies:
@@ -1722,6 +1718,10 @@
   resolved "https://registry.npmjs.org/@types/uglify-js/-/uglify-js-3.12.0.tgz"
   dependencies:
     source-map "^0.6.1"
+
+"@types/use-sync-external-store@^0.0.3":
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/@types/use-sync-external-store/-/use-sync-external-store-0.0.3.tgz#b6725d5f4af24ace33b36fafd295136e75509f43"
 
 "@types/webpack-sources@*":
   version "2.1.0"
@@ -3488,9 +3488,9 @@ data-urls@^2.0.0:
     whatwg-mimetype "^2.3.0"
     whatwg-url "^8.0.0"
 
-dayjs@^1.10.6:
-  version "1.10.6"
-  resolved "https://registry.npmjs.org/dayjs/-/dayjs-1.10.6.tgz"
+dayjs@^1.11.5:
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.5.tgz#00e8cc627f231f9499c19b38af49f56dc0ac5e93"
 
 debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"
@@ -8134,7 +8134,7 @@ react-hook-form@^7.13.0:
   version "7.13.0"
   resolved "https://registry.npmjs.org/react-hook-form/-/react-hook-form-7.13.0.tgz"
 
-react-is@^16.13.1, react-is@^16.7.0, react-is@^16.8.1:
+react-is@^16.7.0, react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz"
 
@@ -8146,16 +8146,16 @@ react-is@^18.0.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-18.2.0.tgz#199431eeaaa2e09f86427efbb4f1473edb47609b"
 
-react-redux@^7.2.4:
-  version "7.2.4"
-  resolved "https://registry.npmjs.org/react-redux/-/react-redux-7.2.4.tgz"
+react-redux@^8.0.2:
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/react-redux/-/react-redux-8.0.2.tgz#bc2a304bb21e79c6808e3e47c50fe1caf62f7aad"
   dependencies:
     "@babel/runtime" "^7.12.1"
-    "@types/react-redux" "^7.1.16"
+    "@types/hoist-non-react-statics" "^3.3.1"
+    "@types/use-sync-external-store" "^0.0.3"
     hoist-non-react-statics "^3.3.2"
-    loose-envify "^1.4.0"
-    prop-types "^15.7.2"
-    react-is "^16.13.1"
+    react-is "^18.0.0"
+    use-sync-external-store "^1.0.0"
 
 react-refresh@^0.8.3:
   version "0.8.3"
@@ -8329,9 +8329,9 @@ redux-thunk@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/redux-thunk/-/redux-thunk-2.3.0.tgz"
 
-redux@^4.0.0, redux@^4.1.0, redux@^4.1.1:
-  version "4.1.1"
-  resolved "https://registry.npmjs.org/redux/-/redux-4.1.1.tgz"
+redux@^4.0.0, redux@^4.1.0, redux@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/redux/-/redux-4.2.0.tgz#46f10d6e29b6666df758780437651eeb2b969f13"
   dependencies:
     "@babel/runtime" "^7.9.2"
 
@@ -9277,9 +9277,9 @@ svgo@^1.0.0, svgo@^1.2.2:
     unquote "~1.1.1"
     util.promisify "~1.0.0"
 
-sweetalert2@^11.1.4:
-  version "11.1.4"
-  resolved "https://registry.npmjs.org/sweetalert2/-/sweetalert2-11.1.4.tgz"
+sweetalert2@^11.4.29:
+  version "11.4.29"
+  resolved "https://registry.yarnpkg.com/sweetalert2/-/sweetalert2-11.4.29.tgz#0b42c924dc79eda6580a753e045a5ec7044a0e2e"
 
 symbol-tree@^3.2.4:
   version "3.2.4"
@@ -9679,6 +9679,10 @@ url@^0.11.0:
   dependencies:
     punycode "1.3.2"
     querystring "0.2.0"
+
+use-sync-external-store@^1.0.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/use-sync-external-store/-/use-sync-external-store-1.2.0.tgz#7dbefd6ef3fe4e767a0cf5d7287aacfb5846928a"
 
 use@^3.1.0:
   version "3.1.1"
