@@ -24,7 +24,7 @@
     "sweetalert2": "^11.4.32",
     "typescript": "^4.7.4",
     "web-vitals": "^3.0.2",
-    "yup": "^0.32.9"
+    "yup": "^0.32.11"
   },
   "scripts": {
     "start": "react-scripts start",
